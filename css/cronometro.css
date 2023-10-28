@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+div{
+    display: inline-block;
+}
+.cronometro{
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 80px;
+    background-color: rgb(209, 209, 27);
+    height: 50px;
+    width: 200px;
+    border-radius: 8px;
+    color: white
+}
+#zero{
+    text-align: justify;
+    position: absolute;
+    margin-left: 55px;
+    margin-top: 13px;
+    font-size: 20px;
+}
+.buttons_cronometro{
+    position: absolute;
+    margin-left: 584px;
+    margin-top: 130px;
+    
+}
+button{
+    border: 10px;
+    height: 40px;
+    width: 60px;
+    border-radius: 8px;
+    text-align: center;
+}
+#pausar{
+    background-color: DarkTurquoise;
+    color: white;
+}
+#iniciar{
+    background-color: #3CB371;
+    color: white;
+}
+#reiniciar{
+    background-color: #8B0000;
+    color: white;
+    width: 65px;
+}
